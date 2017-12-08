@@ -2,7 +2,7 @@
 
 namespace DomainCore.Domain.Core.ValueObjects
 {
-    public class ValueObject : IValueObject
+    public abstract class ValueObject : IValueObject
     {
     }
 }

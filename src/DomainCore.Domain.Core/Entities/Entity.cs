@@ -3,9 +3,9 @@ using DomainCore.Domain.Core.Interfaces.Entities;
 
 namespace DomainCore.Domain.Core.Entities
 {
-    public class Entity : IEntity
+    public abstract class Entity : IEntity
     {
-        public Entity(Guid id)
+        protected Entity(Guid id)
         {
             Id = id;
         }
